@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.12.6
+# v0.12.11
 
 using Markdown
 using InteractiveUtils
@@ -7,15 +7,17 @@ using InteractiveUtils
 # ╔═╡ c9f9318a-1e89-11eb-2939-f3a5f1289a12
 begin
 	import Pkg; Pkg.add("ForwardDiff")
+	Pkg.add("Plots")
 	using ForwardDiff
+	using Plots
 end
 
 # ╔═╡ 652e2558-1e7a-11eb-2483-cb1203507751
 begin
 	using LinearAlgebra
+	
 	using InstantiateFromURL
-	using Plots
-	gr(fmt=:png);
+	
 end
 
 # ╔═╡ e30d5e5c-1e7b-11eb-0173-5dbf06d875bb
@@ -153,7 +155,7 @@ end
 # ╟─02f30026-1e7c-11eb-1bdf-713cc1950a22
 # ╟─c0b1a1c0-1e8e-11eb-11e4-9187b5708dad
 # ╟─0297fd2c-1e7c-11eb-20de-ed44583cc810
-# ╠═c5a9b326-1e7c-11eb-043e-6b700836e7df
+# ╟─c5a9b326-1e7c-11eb-043e-6b700836e7df
 # ╟─79411808-1e7e-11eb-1073-d9d8e2b1a662
 # ╟─55e7aa80-1e7d-11eb-3447-810cb162aa9b
 # ╠═96c557f0-1e7d-11eb-0577-1bef484e817a
@@ -164,5 +166,5 @@ end
 # ╟─6167139e-1e89-11eb-26f4-55cbdbc70de2
 # ╠═3928f3c2-1e8c-11eb-2244-3f9c7c2857d4
 # ╠═4b431106-1e8b-11eb-00cd-814c8e98e0b7
-# ╟─c9f9318a-1e89-11eb-2939-f3a5f1289a12
-# ╟─652e2558-1e7a-11eb-2483-cb1203507751
+# ╠═c9f9318a-1e89-11eb-2939-f3a5f1289a12
+# ╠═652e2558-1e7a-11eb-2483-cb1203507751
